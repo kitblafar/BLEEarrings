@@ -326,6 +326,14 @@
     [
       "fde3e4b3-cb63-4f5f-903c-f7733537b674",
       ""
+    ],
+    [
+      "cc2f0989-8d04-47bf-8614-6f2fa6b462a8",
+      "Power"
+    ],
+    [
+      "32955d97-ca5c-4865-acbb-de3f376d8935",
+      "DSP"
     ]
   ],
   "text_variables": {}
