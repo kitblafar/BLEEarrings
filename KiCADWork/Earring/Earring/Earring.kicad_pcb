@@ -153,7 +153,7 @@
 
   (footprint "easyeda2kicad:CONN-SMD_custom1" (layer "F.Cu")
     (tstamp f1fbafdc-3a0b-4157-88e1-03ba6ca642a3)
-    (at 170.77 89.3)
+    (at 170.77 89.4)
     (property "Sheetfile" "Earring.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -201,7 +201,7 @@
 
   (footprint "easyeda2kicad:SOL320P540X170-4N" (layer "B.Cu")
     (tstamp 033d242d-5869-46b4-834e-fd211f4ea4ee)
-    (at 170.61 90.99 90)
+    (at 170.685 90.65 90)
     (property "Availability" "In Stock")
     (property "Check_prices" "https://www.snapeda.com/parts/2758/Adafruit+Industries+LLC/view-part/?ref=eda")
     (property "Description" "\nAddressable Lighting Neopixel 10 LED Discrete Serial (Shift Register) Red, Green, Blue, Neutral White (RGBW) 5.00mm L x 5.00mm W\n")

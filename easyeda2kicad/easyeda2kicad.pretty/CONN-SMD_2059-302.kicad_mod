@@ -49,9 +49,9 @@
   (pad "1" smd rect (at 3.1 -1.5 90) (size 1.4 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c3dafbde-6a64-4f3a-996f-809bb7c5382f))
   (pad "2" smd rect (at -3.1 1.5 90) (size 1.4 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 13cd6951-3baa-4251-82b8-6dee0573811f))
   (pad "2" smd rect (at 3.1 1.5 90) (size 1.4 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f4b93061-4a57-4e2c-b1e0-4208219b7d5f))
-  (model "C:/BLEEarrings/easyeda2kicad/easyeda2kicad.3dshapes/CONN-SMD_2059-302.wrl"
-    (offset (xyz 0.1 -0 -0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+  (model "C:/BLEEarrings/CADWork/Connector/2Way/2wayconn.step"
+    (offset (xyz 0 -0 -0))
+    (scale (xyz 2.54 2.54 2.54))
+    (rotate (xyz -90 0 0))
   )
 )
