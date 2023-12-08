@@ -511,6 +511,14 @@
       {
         "netclass": "Matched",
         "pattern": "/DSP/D-"
+      },
+      {
+        "netclass": "Matched",
+        "pattern": "D-"
+      },
+      {
+        "netclass": "Matched",
+        "pattern": "D+"
       }
     ]
   },
@@ -563,6 +571,10 @@
     [
       "fde3e4b3-cb63-4f5f-903c-f7733537b674",
       ""
+    ],
+    [
+      "37cadbd7-6b4e-4ad6-85fe-82f50abfc793",
+      "Power"
     ],
     [
       "32955d97-ca5c-4865-acbb-de3f376d8935",
