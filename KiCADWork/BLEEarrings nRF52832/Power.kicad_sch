@@ -686,9 +686,6 @@
         )
       )
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "D1") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "D1") (unit 1)
         )
@@ -719,9 +716,6 @@
         )
       )
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "#PWR04") (unit 1)
         )
@@ -753,9 +747,6 @@
         )
       )
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "C2") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "C18") (unit 1)
         )
@@ -786,9 +777,6 @@
         )
       )
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "#PWR06") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "#PWR022") (unit 1)
         )
@@ -819,9 +807,6 @@
         )
       )
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "#PWR024") (unit 1)
         )
@@ -852,9 +837,6 @@
         )
       )
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "#PWR06") (unit 1)
         )
@@ -892,9 +874,6 @@
         )
       )
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "U2") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "U1") (unit 1)
         )
@@ -926,9 +905,6 @@
         )
       )
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "C3") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "C19") (unit 1)
         )
@@ -960,9 +936,6 @@
         )
       )
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "R1") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "R1") (unit 1)
         )
@@ -1002,9 +975,6 @@
         )
       )
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "U1") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "U2") (unit 1)
         )
@@ -1036,9 +1006,6 @@
         )
       )
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "R2") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "R4") (unit 1)
         )
@@ -1070,9 +1037,6 @@
         )
       )
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "R5") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "R3") (unit 1)
         )
@@ -1099,9 +1063,6 @@
     (pin "2" (uuid ffbb678f-234d-48fe-ac10-121b6604755c))
     (instances
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "BT1") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "BT1") (unit 1)
         )
@@ -1133,9 +1094,6 @@
         )
       )
       (project "BLEEarrings"
-        (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674"
-          (reference "C1") (unit 1)
-        )
         (path "/fde3e4b3-cb63-4f5f-903c-f7733537b674/37cadbd7-6b4e-4ad6-85fe-82f50abfc793"
           (reference "C13") (unit 1)
         )

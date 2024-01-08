@@ -29,7 +29,7 @@
   (pad "4" smd rect (at 0.95 -1.15) (size 0.53 1.07) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cf621f74-b9aa-46aa-9830-0861ebe71cdd))
   (pad "5" smd rect (at 0 -1.15) (size 0.53 1.07) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c3a515a3-f33a-40d5-af78-d34506a17aa7))
   (pad "6" smd rect (at -0.95 -1.15) (size 0.53 1.07) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8d1df6dc-eeca-4934-9a5a-ddbed753b968))
-  (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+  (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
     (offset (xyz 0 0 -0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
