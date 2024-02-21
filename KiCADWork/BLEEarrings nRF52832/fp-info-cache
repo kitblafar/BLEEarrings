@@ -1,4 +1,4 @@
-22930026707870654
+22943694284365518
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53879,6 +53879,20 @@ MOSFETConstruct
 46
 6
 CustomPads
+OT1
+
+
+0
+0
+0
+CustomPads
+OT2
+
+
+0
+0
+0
+CustomPads
 PAD4.7mm
 
 
@@ -88410,12 +88424,12 @@ Logo WEEE
 0
 0
 Temp
-SSOP-5_L2.9-W1.6-P0.95-LS2.8-BR
+SOT-563_L1.6-W1.2-P0.50-LS1.6-BR
 
 
 0
-5
-5
+6
+6
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -94234,6 +94248,20 @@ HDR-TH_10P-P1.27_X1321FR-2X05-C43D24
 10
 10
 easyeda2kicad
+IND-SMD_L2.0-W1.6_MHCHL201610A-1R0M-Q8A
+
+
+0
+2
+2
+easyeda2kicad
+IND-SMD_L5.2-W5.2_YSPI0530
+
+
+0
+2
+2
+easyeda2kicad
 KEY-SMD_L3.0-W2.5-LS4.0
 
 
@@ -94261,6 +94289,20 @@ OSC-SMD_4P-L2.0-W1.6-BL
 0
 4
 4
+easyeda2kicad
+QFN-16_L3.0-W3.0-P0.50-TL-EP
+
+
+0
+17
+17
+easyeda2kicad
+QFN-16_L3.0-W3.0-P0.50-TL-EP1.7
+
+
+0
+17
+17
 easyeda2kicad
 QFN-24_L4.0-W4.0-P0.50-TL-EP2.5
 
@@ -94318,6 +94360,13 @@ SC-88-6_L2.0-W1.3-P0.65-LS2.1-BL
 6
 6
 easyeda2kicad
+SOD-123_L2.8-W1.8-LS3.7-RD
+
+
+0
+2
+2
+easyeda2kicad
 SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
 
 
@@ -94366,6 +94415,13 @@ SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR
 0
 4
 4
+easyeda2kicad
+SOT-563_L1.6-W1.2-P0.50-LS1.6-BR
+
+
+0
+6
+6
 easyeda2kicad
 SSOP-5_L2.9-W1.6-P0.95-LS2.8-BR
 
