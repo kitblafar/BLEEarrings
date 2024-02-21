@@ -26,7 +26,7 @@
   (pad "3" smd rect (at -0.7 -0.55) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8b667f36-4647-4595-a1df-d1ff49b349b6))
   (pad "4" smd rect (at 0.7 -0.55) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a858665c-692c-49c7-9421-ff54273176cf))
   (model "C:/BLEEarrings/easyeda2kicad/easyeda2kicad.3dshapes/OSC-SMD_4P-L2.0-W1.6-H0.8.wrl"
-    (offset (xyz 0.06 -3.27 -0))
+    (offset (xyz 0 0 -0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
