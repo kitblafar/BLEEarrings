@@ -425,8 +425,8 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
+        "schematic_color": "rgb(0, 255, 0)",
+        "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -445,6 +445,14 @@
       {
         "netclass": "Power",
         "pattern": "VTRef"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/ExtraBattery/VBAT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/ExtraBattery/3.7Out"
       }
     ]
   },
