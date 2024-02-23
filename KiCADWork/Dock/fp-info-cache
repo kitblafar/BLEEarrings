@@ -1,4 +1,4 @@
-22947111350205023
+22955668871620844
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88417,7 +88417,14 @@ Logo WEEE
 0
 0
 Temp
-SOT-563_L1.6-W1.2-P0.50-LS1.6-BR
+CONN-TH_530480210
+
+
+0
+2
+2
+Temp
+TSOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
 
 
 0
@@ -94129,6 +94136,13 @@ CONN-TH_12P-P2.54_WINGTAT_ED12BGFBK
 12
 12
 easyeda2kicad
+CONN-TH_530480210
+
+
+0
+2
+2
+easyeda2kicad
 CONN-TH_KF239-3.5-3P
 
 
@@ -94136,7 +94150,7 @@ CONN-TH_KF239-3.5-3P
 3
 3
 easyeda2kicad
-CONN-TH_S2B-PH-K-LF-SN
+CONN-TH_S2B-PH-K-S-LF-SN
 
 
 0
@@ -94284,6 +94298,27 @@ OSC-SMD_4P-L2.0-W1.6-BL
 4
 easyeda2kicad
 OT2
+
+
+0
+0
+0
+easyeda2kicad
+OTS1
+
+
+0
+0
+0
+easyeda2kicad
+OTS2
+
+
+0
+0
+0
+easyeda2kicad
+OTS2G
 
 
 0
@@ -94512,7 +94547,7 @@ USB-C-SMD_TYPE-C-24P-GTJB-040
 
 0
 26
-21
+20
 easyeda2kicad
 USB-C-SMD_TYPEC-952-ACP24
 
