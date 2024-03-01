@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.5,
-          "width": 0.5
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,22 +45,16 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.09999999999999999
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "ignore",
+        "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -91,8 +85,8 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -171,15 +165,8 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -405,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Dock.kicad_pro",
+    "filename": "Combine.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -426,40 +413,6 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.11,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.528,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Matched",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(72, 0, 72)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 255, 0)",
-        "track_width": 0.5,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -467,52 +420,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "Power"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VTRef"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/ExtraBattery/VBAT"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/ExtraBattery/3.7Out"
-      },
-      {
-        "netclass": "Matched",
-        "pattern": "/DeviceSelect/D2-"
-      },
-      {
-        "netclass": "Matched",
-        "pattern": "/DeviceSelect/D2+"
-      },
-      {
-        "netclass": "Matched",
-        "pattern": "/DeviceSelect/D1-"
-      },
-      {
-        "netclass": "Matched",
-        "pattern": "/DeviceSelect/D1+"
-      },
-      {
-        "netclass": "Matched",
-        "pattern": "/DeviceSelect/D-"
-      },
-      {
-        "netclass": "Matched",
-        "pattern": "/DeviceSelect/D+"
-      },
-      {
-        "netclass": "Matched",
-        "pattern": "/0R resistors requireed to swap the datalines"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -561,16 +469,52 @@
   },
   "sheets": [
     [
-      "6f84fb5e-0715-49fa-a507-16643db39fa4",
+      "3a067f6e-27d8-46f5-91e9-67d8f6f5da54",
       ""
     ],
     [
-      "f8be2532-765d-429b-8f01-5c52be1ed381",
+      "c8c698fa-d816-4334-81f8-699b797e8efd",
+      "Dock"
+    ],
+    [
+      "49b88bca-49a1-43e4-a09f-782b6189f810",
       "ExtraBattery"
     ],
     [
-      "44221b1b-0b86-4e5b-a42c-af9dc25917a2",
+      "a01dd201-7c49-4bd2-8659-e9473649e8d4",
       "DeviceSelect"
+    ],
+    [
+      "8babb549-cb41-41ef-aae8-a9df69f93513",
+      "Earring1"
+    ],
+    [
+      "37cadbd7-6b4e-4ad6-85fe-82f50abfc793",
+      "Power"
+    ],
+    [
+      "32955d97-ca5c-4865-acbb-de3f376d8935",
+      "DSP"
+    ],
+    [
+      "e248df4f-814c-46e0-8ef1-d7e76ca8fad7",
+      "Earring2"
+    ],
+    [
+      "32955d97-ca5c-4865-acbb-de3f376d8935",
+      "DSP"
+    ],
+    [
+      "37cadbd7-6b4e-4ad6-85fe-82f50abfc793",
+      "Power"
+    ],
+    [
+      "aa3c9e51-7ed9-4461-9ac1-b5f5a82b6e73",
+      "Pendant2"
+    ],
+    [
+      "ce302604-6b99-4a2a-b5ad-23ee0a1d5def",
+      "Pendant1"
     ]
   ],
   "text_variables": {}

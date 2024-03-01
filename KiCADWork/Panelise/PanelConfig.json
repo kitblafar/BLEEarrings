@@ -1,0 +1,70 @@
+// KiKit Panelisation for CT
+{
+    "layout": {
+        "type": "grid", // circuits are arranged in a grid in the panel
+        "rows": 2, 
+        "cols": 3,
+        "space": "2.4mm", 
+        "rotation": "0deg",
+        "alternation": "none",
+        "hbackbone": "3mm", //this adds a frame around each circuit running throught the middle of the panel
+        "vbackbone": "3mm",
+        "hboneskip": "0",
+        "vboneskip": "0"  //skip the 0th backbone as this is the outer-frame
+    },
+    // This is setup for a single board project, for multiple board projects see the
+    // KiKit documentatino
+    "source": {
+        "type": "auto",
+        "tolerance": "15mm" //this is a large tolerance 
+    },
+
+    "tabs": {
+        "type": "annotation" //take the tabs from the kikit annotations rather than defining here
+        // The following comments are an example of fixed tab definition
+        // "width": "3mm",
+        // "hcount": "1",
+        // "vcount": "1",
+        // "source": "MainBoard"
+    },
+    "cuts": {
+        // these are CT standard mousebites- following CAD19
+        "type": "mousebites",
+        "drill": "0.8mm",
+        "spacing": "2.2mm",
+        "offset": "0mm",
+        "prolong": "0mm"
+
+    },
+    
+    "framing": {
+        //Adds a frame around the whole panel (this should be thick)
+        "type": "tightframe",
+        "width": "15mm",
+        "slotwidth": "2.4mm",
+        "space": "2.4mm"
+        
+    },
+
+    "fiducials": {
+        //THIS adds CT standard fiducials to the project
+        "type": "4fid",
+        "hoffset": "5mm",
+        "voffset": "5mm",
+        "coppersize": "1.98mm",
+        "opening": "2.04mm"
+    },
+
+    // Adds fillets to the internal corners like the mill would do
+    "post": {
+        "type": "auto",
+        "millradius": "1.2mm"
+    },
+
+    "copperfill": {
+        "type": "hatched",
+        "clearance": "2.4mm",
+        "spacing": "0.5mm",
+        "width": "0.5mm"
+    }
+}
