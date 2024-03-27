@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "items_not_allowed|153748128|49950000|3211d9b6-2a6b-44ee-8068-e4f169e7659a|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },

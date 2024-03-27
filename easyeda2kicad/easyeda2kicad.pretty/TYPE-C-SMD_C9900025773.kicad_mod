@@ -61,7 +61,7 @@
   (pad "S1" thru_hole oval (at 4.32 2.59) (size 1 2.3) (drill oval 0.599999 1.899996) (layers "*.Cu" "*.Mask") (tstamp 6e52ee37-f7d3-4d43-a750-a8a7bdcd2bc3))
   (model "C:/BLEEarrings/CADWork/USB-C/USBC.step"
     (offset (xyz 0 -1.2 1.6))
-    (scale (xyz 2.54 2.54 2.54))
+    (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
   )
 )
