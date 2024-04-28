@@ -991,7 +991,7 @@
   (symbol (lib_id "easyeda2kicad:USBLC6-2SC6_C2687116") (at 109.855 85.725 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c83e4b8-483d-4fad-8e2f-3321ebda8a6b)
-    (property "Reference" "D2" (at 111.76 75.565 0)
+    (property "Reference" "D6" (at 108.585 79.375 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USBLC6-2SC6_C2687116" (at 122.555 79.375 0)
@@ -1015,10 +1015,10 @@
     (instances
       (project "Combine"
         (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54/8babb549-cb41-41ef-aae8-a9df69f93513"
-          (reference "D2") (unit 1)
+          (reference "D6") (unit 1)
         )
         (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54/e248df4f-814c-46e0-8ef1-d7e76ca8fad7"
-          (reference "D3") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
       (project "BLEEarrings"
@@ -1032,7 +1032,7 @@
   (symbol (lib_id "Device:R") (at 96.52 74.295 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 908b47ea-466a-4ca9-86ad-f73b4385bf4b)
-    (property "Reference" "R1" (at 96.52 69.215 90)
+    (property "Reference" "R24" (at 96.52 69.215 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5k1" (at 96.52 71.755 90)
@@ -1052,10 +1052,10 @@
     (instances
       (project "Combine"
         (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54/8babb549-cb41-41ef-aae8-a9df69f93513"
-          (reference "R1") (unit 1)
+          (reference "R24") (unit 1)
         )
         (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54/e248df4f-814c-46e0-8ef1-d7e76ca8fad7"
-          (reference "R10") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
       (project "Dock"
@@ -1080,7 +1080,7 @@
   (symbol (lib_id "power:+BATT") (at 243.84 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad73f8bc-18c6-4f3f-af06-54805a129dfa)
-    (property "Reference" "#PWR02" (at 243.84 69.85 0)
+    (property "Reference" "#PWR032" (at 243.84 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 243.84 60.96 0)
@@ -1096,10 +1096,10 @@
     (instances
       (project "Combine"
         (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54/8babb549-cb41-41ef-aae8-a9df69f93513"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
         (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54/e248df4f-814c-46e0-8ef1-d7e76ca8fad7"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
       (project "BLEEarrings"
@@ -1113,7 +1113,7 @@
   (symbol (lib_id "Device:R") (at 103.505 76.835 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bab8dccd-dc7c-4664-90dc-98a9444528e5)
-    (property "Reference" "R1" (at 103.505 71.755 90)
+    (property "Reference" "R25" (at 103.505 71.755 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5k1" (at 103.505 74.295 90)
@@ -1133,10 +1133,10 @@
     (instances
       (project "Combine"
         (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54/8babb549-cb41-41ef-aae8-a9df69f93513"
-          (reference "R1") (unit 1)
+          (reference "R25") (unit 1)
         )
         (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54/e248df4f-814c-46e0-8ef1-d7e76ca8fad7"
-          (reference "R11") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
       (project "Dock"
@@ -1207,7 +1207,7 @@
           (reference "J3") (unit 1)
         )
         (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54/e248df4f-814c-46e0-8ef1-d7e76ca8fad7"
-          (reference "J4") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
       (project "BLEEarrings"
@@ -1221,7 +1221,7 @@
   (symbol (lib_id "power:GND") (at 138.43 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec0a059d-3ceb-4d95-81e1-e1e5a25d805e)
-    (property "Reference" "#PWR023" (at 138.43 107.95 0)
+    (property "Reference" "#PWR031" (at 138.43 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 106.045 0)
@@ -1237,10 +1237,10 @@
     (instances
       (project "Combine"
         (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54/8babb549-cb41-41ef-aae8-a9df69f93513"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
         (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54/e248df4f-814c-46e0-8ef1-d7e76ca8fad7"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
       (project "BLEEarrings"
@@ -1254,7 +1254,7 @@
   (symbol (lib_id "power:GND") (at 73.025 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3415926-6612-4f60-b568-a6458b9adbb0)
-    (property "Reference" "#PWR01" (at 73.025 144.78 0)
+    (property "Reference" "#PWR030" (at 73.025 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.025 143.51 0)
@@ -1270,10 +1270,10 @@
     (instances
       (project "Combine"
         (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54/8babb549-cb41-41ef-aae8-a9df69f93513"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
         (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54/e248df4f-814c-46e0-8ef1-d7e76ca8fad7"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
       (project "Dock"
