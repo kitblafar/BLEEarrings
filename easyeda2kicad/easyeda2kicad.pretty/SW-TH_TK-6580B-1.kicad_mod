@@ -38,7 +38,7 @@
   (pad "1" thru_hole circle (at -2 0 180) (size 1.6 1.6) (drill 0.999998) (layers "*.Cu" "*.Mask") (tstamp 45e5ac93-636d-4478-b6f9-c9fe08a4f0db))
   (pad "2" thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.999998) (layers "*.Cu" "*.Mask") (tstamp 3c2faa5f-a0e1-4b70-8ceb-8ba030caceae))
   (pad "3" thru_hole circle (at 2 0 180) (size 1.6 1.6) (drill 0.999998) (layers "*.Cu" "*.Mask") (tstamp dfc9e93c-9197-415d-874a-40ae79557c0e))
-  (model "C:/BLEEarrings/CADWork/Switch/Switch.step"
+  (model "C:/BLEEarrings/CAD/CustomParts/Switch/Switch.step"
     (offset (xyz 0 -5.9 0))
     (scale (xyz 2.54 2.54 2.54))
     (rotate (xyz -90 0 180))

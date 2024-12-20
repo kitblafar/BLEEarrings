@@ -52,12 +52,12 @@
   (fp_line (start -2.6 -2.1) (end -6.9 -2.1)
     (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 0b6d39f3-db25-481c-a287-3dd710f0b20a))
   (fp_rect (start -16.75 53.45) (end 16.75 2.65)
-    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp f9889899-1fe4-4b96-b36a-4d3808606a97))
+    (stroke (width 0.1) (type default)) (fill none) (layer "Dwgs.User") (tstamp f9889899-1fe4-4b96-b36a-4d3808606a97))
   (fp_circle (center -2.55 1.85) (end -2.55 1.88)
     (stroke (width 0.06) (type solid)) (fill none) (layer "F.Fab") (tstamp cba0fa6c-1581-401e-b4f7-cac7dec484e2))
-  (pad "1" thru_hole circle (at -8.8 -2.1 270) (size 1.4 1.4) (drill 0.849986) (layers "*.Cu" "*.Mask") (tstamp 17d966cc-7a26-4c49-a458-8ad6b475c8f2))
-  (pad "2" thru_hole rect (at -8.8 -0.1 270) (size 1.5 1.4) (drill 0.849986) (layers "*.Cu" "*.Mask") (tstamp b4a59752-a9a0-408f-a79d-a99eef42a532))
-  (model "C:/BLEEarrings/CADWork/Battery/BatteryDock.STEP"
+  (pad "1" thru_hole rect (at -8.8 -0.1 270) (size 1.5 1.4) (drill 0.849986) (layers "*.Cu" "*.Mask") (tstamp b4a59752-a9a0-408f-a79d-a99eef42a532))
+  (pad "2" thru_hole circle (at -8.8 -2.1 270) (size 1.4 1.4) (drill 0.849986) (layers "*.Cu" "*.Mask") (tstamp 17d966cc-7a26-4c49-a458-8ad6b475c8f2))
+  (model "C:/BLEEarrings/CAD/CustomParts/Battery/BatteryDock.STEP"
     (offset (xyz -0 4.56 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))
